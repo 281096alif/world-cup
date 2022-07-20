@@ -28,11 +28,20 @@
     display: flex;
 }
 
-nav{
+.all-nav{
     background-color: aqua;
     width: 312px;
     height: 312px;
     border-radius: 10px;
+
+}
+.all-nav a{
+    text-decoration: none;
+}
+.nav-link{
+    border: 1px solid black;
+    height: 64px;
+    width: 252px;
 }
 .blogs{
     display: grid;
@@ -41,5 +50,28 @@ nav{
 .blog{
     margin-left: 20px;
     margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+ .blog-image img{
+    width: 100%;
+}
 
+.blog-text{
+    padding: 10px;
+}
+
+/* footer style  */
+footer{
+    text-align: center;
+    background-color: #161616;
+    color: white;
+    padding: 100px;
+    
+}
+hr{
+    color: #f2f2f2;
+}
+footer a{
+    text-decoration: none;
 }
