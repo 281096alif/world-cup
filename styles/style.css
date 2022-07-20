@@ -18,6 +18,9 @@ body{
 }
 
 /* banner style  */
+
+
+
 .top-banner{
     display: flex;
     background: #161616;
@@ -55,11 +58,22 @@ line-height: 26px;
     gap: 10px;
     width: 187px;
     background-color: red;
+    transition: width 1.5s ease-in-out, background-color 1.5s ease-in-out;
+
 }
 .watch-live a{
     text-decoration: none;
     color: white;
 }
+
+/* animation-on-hover*/
+.watch-live:hover{
+    width: 250px;
+    background-color: blue;
+    color: #000000;
+}
+/* animation-on-hover*/
+
 .banner-image{
         margin-right: 79px;
 }
@@ -132,6 +146,25 @@ line-height: 26px;
     display: flex;
     align-items: center;
 }
+
+
+/* view all  */
+.view-all{
+    margin: 60px;
+    visibility: hidden;
+    text-align: center;
+}
+.view-all a{
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 15px 15px;
+    border-radius: 5px;
+}
+
+
+
 
 /* footer style  */
 footer{
