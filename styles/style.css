@@ -1,6 +1,11 @@
 /* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* body style  */
+body{
+    font-family: 'Poppins', sans-serif;
 
+}
 
 /* common style or utilities  */
 .container{
@@ -21,27 +26,79 @@
     height: 646px;
     margin-bottom: 50px;
 }
+.banner-text{
+    padding: 111px 0px 111px 106px;
+
+}
+.top-banner h1{
+    margin: 0px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.top-banner p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+line-height: 26px;
+}
+
+.watch-live{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 25px;
+    gap: 10px;
+    width: 187px;
+    background-color: red;
+}
+.watch-live a{
+    text-decoration: none;
+
+}
+.banner-image{
+    margin-right: 79px;
+
+}
+.banner-image a{
+    width: 581px;
+    height: 613px;
+    margin-left: 79px;
+}
 
 /* mid section style  */
 
 .mid-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: 312px 1fr;
 }
 
 .all-nav{
-    background-color: aqua;
-    width: 312px;
+    background-color: #000000;
+    width:  312px ;
     height: 312px;
     border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 
 }
 .all-nav a{
     text-decoration: none;
+    font-size: 28px;
 }
 .nav-link{
     border: 1px solid black;
-    height: 64px;
+    border-radius: 10px;
+    height: 50px;
     width: 252px;
+    text-align: center;
+    padding-top: 17px;
+    background-color: white;
 }
 .blogs{
     display: grid;
@@ -60,6 +117,10 @@
 .blog-text{
     padding: 10px;
 }
+.bottom-text{
+    display: flex;
+    align-items: center;
+}
 
 /* footer style  */
 footer{
@@ -74,4 +135,17 @@ hr{
 }
 footer a{
     text-decoration: none;
+    color: white;
+    padding: 20px;
+
+
+}
+.footer-link{
+    padding: 20px 30px ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.social-link{
+    scale: 2em;
 }
