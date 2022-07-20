@@ -152,6 +152,20 @@ line-height: 26px;
 }
 
 
+
+/* upcoming match style start */
+.flag-image{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around
+}
+.flag-text{
+    text-align: center;
+}
+/* upcoming match style end  */
+
+
+
 /* view all  */
 .view-all{
     margin: 60px;
