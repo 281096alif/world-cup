@@ -61,13 +61,13 @@ line-height: 26px;
 
 }
 .banner-image{
-    margin-right: 79px;
-
+        margin-right: 79px;
 }
-.banner-image a{
+.banner-image img{
     width: 581px;
     height: 613px;
-    margin-left: 79px;
+    display: 100%;
+    padding-top: 33px;
 }
 
 /* mid section style  */
@@ -89,7 +89,7 @@ line-height: 26px;
 }
 .all-nav a{
     text-decoration: none;
-    font-size: 28px;
+    font-size: 24px;
 }
 .nav-link{
     border: 1px solid black;
