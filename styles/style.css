@@ -19,8 +19,6 @@ body{
 
 /* banner style  */
 
-
-
 .top-banner{
     display: flex;
     background: #161616;
@@ -47,6 +45,8 @@ body{
 line-height: 26px;
 }
 
+/* button style  */
+
 .watch-live{
     border-radius: 5px;
     display: flex;
@@ -71,7 +71,10 @@ line-height: 26px;
     background-color: blue;
     color: #000000;
 }
-/* animation-on-hover*/
+
+
+
+/* banner image */
 
 .banner-image{
         margin-right: 79px;
@@ -112,6 +115,9 @@ line-height: 26px;
     padding-top: 17px;
     background-color: white;
 }
+
+/* blog section style  */
+
 .blog-highlight{
     background-color: red;
 }
@@ -188,12 +194,6 @@ footer a{
     justify-content: space-around;
     flex-wrap: no-wrap;
 }
-/* 
-.social-link{
-
-}
-
-*/
 
 
 
@@ -201,13 +201,13 @@ footer a{
 /* media Quaries */
 
 /* tablet */
+
 @media only screen and (min-width:689px) and (max-width:992px) {
 
     .top-banner{
         margin-bottom: 50px;
     }
     
-
     .banner-text{
         padding: 61px 0px 61px 76px;
     }
@@ -223,23 +223,21 @@ footer a{
 
     .banner-image{
         margin-right: 17px;
-}
-.banner-image img{
-    width: 323px;
-    height: 340px;
-    padding-top: 58px;
-}
+    }
 
-    
-.all-nav{
-    background-color: #ffffff;
-    display: flex;
-    
-    width: 100%;
-    justify-content: space-between;
-}
+    .banner-image img{
+        width: 323px;
+        height: 340px;
+        padding-top: 58px;
+    }
 
-    
+    .all-nav{
+        background-color: #ffffff;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
     .blogs{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -256,15 +254,45 @@ footer a{
         flex-wrap: wrap;
     }
     
-
 }
 
+
 /* mobile/ */
+
 @media only screen and (max-width:688px) {
 
+    .top-banner{
+        flex-direction: column;
+        margin-bottom: 50px;
+        align-items: center;
+    }
 
+    .watch-live{
+        margin: auto;
+    }
+
+    .banner-text{
+        padding: 61px 61px 0px 61px;
+        text-align: center;
+    }
     
+    .top-banner h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .top-banner p{
+        font-size: 14px;
+    line-height: 24px;
+    }
 
+    .banner-image{
+        margin-right: 17px;
+    }
+    .banner-image img{
+        width: 323px;
+        height: 340px;
+        padding-top: 58px;
+    }
 
     .all-nav{
         background-color: #ffffff;
@@ -284,9 +312,6 @@ footer a{
         display: grid;
         grid-template-columns: 1fr;
     }
-
-
-
 
     .footer-link{
         display: flex;
