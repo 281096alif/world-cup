@@ -9,7 +9,7 @@ body{
 
 /* common style or utilities  */
 .container{
-    width: 1321px;
+    width: 87%;
 }
 .common-style{
     display: flex;
@@ -80,7 +80,6 @@ line-height: 26px;
 .banner-image img{
     width: 581px;
     height: 613px;
-    display: 100%;
     padding-top: 33px;
 }
 
@@ -190,9 +189,12 @@ footer a{
     justify-content: space-around;
     flex-wrap: no-wrap;
 }
+/* 
 .social-link{
 
 }
+
+*/
 
 
 
@@ -204,8 +206,17 @@ footer a{
     .container{
         width: 100%;
     }
+    
     .blogs{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .mid-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .view-all{
+        visibility: visible;
     }
 
 }
