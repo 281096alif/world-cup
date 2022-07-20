@@ -188,8 +188,35 @@ footer a{
     padding: 20px 30px ;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
 }
 .social-link{
-    scale: 2em;
+
 }
+
+
+
+
+/* media Quaries */
+
+/* tablet */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* mobile/ */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
