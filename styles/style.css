@@ -1,0 +1,45 @@
+/* fonts */
+
+
+
+/* common style or utilities  */
+.container{
+    width: 1321px;
+}
+.common-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* banner style  */
+.top-banner{
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+    color: white;
+    height: 646px;
+    margin-bottom: 50px;
+}
+
+/* mid section style  */
+
+.mid-section{
+    display: flex;
+}
+
+nav{
+    background-color: aqua;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.blog{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
